@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 27, 54);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.app{
+  text-align: center;
+}
+.app input{
+  padding: 10px;
+  width: 300px;
+}
+
+.app button{
+  text-align: center;
+  margin: 15px;
+  padding: 7px;
+  background-color: rgb(59, 59, 240);
+  color: #fff;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+}
+
+.app button:hover{
+  background-color: rgb(84, 84, 239);
+}
+
+.otp{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.success{
+  color:green;
+}
+
+.error{
+  color: red;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(80, 79, 79);
+  color: white;
+  text-align: center;
+}
+
